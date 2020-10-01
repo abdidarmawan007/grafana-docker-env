@@ -49,3 +49,18 @@
           value: "/var/lib/grafana/service_account.json"
         - name: GF_EXTERNAL_IMAGE_STORAGE_GCS_BUCKET
           value: "my-gcp-public-bucket"
+### google sso login
+        - name: GF_AUTH_GOOGLE_ENABLED
+          value: "true"
+        - name: GF_AUTH_GOOGLE_AUTH_URL
+          value: "https://accounts.google.com/o/oauth2/auth"
+        - name: GF_AUTH_GOOGLE_TOKEN_URL
+          value: "https://accounts.google.com/o/oauth2/token"
+        - name: GF_AUTH_GOOGLE_CLIENT_ID
+          value: "335xxx51-0f9glecgxxe.apps.googleusercontent.com"
+        - name: GF_AUTH_GOOGLE_CLIENT_SECRET
+          value: "101aKWcBni51U7Ya4uYL6-lol"
+        - name: GF_AUTH_GOOGLE_ALLOWED_DOMAINS
+          value: "abdidarmawan.com"
+        - name: GF_AUTH_GOOGLE_ALLOW_SIGN_UP
+          value: "true"
