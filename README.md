@@ -18,3 +18,7 @@
           value: "false"
         - name: GF_AUTH_DISABLE_LOGIN_FORM
           value: "false"
+
+### domain
+        - name: GF_SERVER_ROOT_URL
+          value: https://grafana-101.abdidarmawan.com
