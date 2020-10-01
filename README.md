@@ -18,7 +18,27 @@
           value: "false"
         - name: GF_AUTH_DISABLE_LOGIN_FORM
           value: "false"
-
+### persistent storage
+        - name: GF_PATHS_DATA
+          value: /data/grafana
 ### domain
         - name: GF_SERVER_ROOT_URL
           value: https://grafana-101.abdidarmawan.com
+### aws key and region
+        - name: GF_AWS_default_ACCESS_KEY_ID
+          value: "xxxxxxx"
+        - name: GF_AWS_default_SECRET_ACCESS_KEY
+          value: "xxxxxxx"
+        - name: GF_AWS_default_REGION
+          value: "ap-southeast-1"
+### aws s3 store images alert
+        - name: GF_EXTERNAL_IMAGE_STORAGE_PROVIDER
+          value: "s3"
+        - name: GF_EXTERNAL_IMAGE_STORAGE_S3_BUCKET
+          value: "my-aws-public-bucket"
+        - name: GF_EXTERNAL_IMAGE_STORAGE_S3_REGION
+          value: "ap-southeast-1"
+        - name: GF_EXTERNAL_IMAGE_STORAGE_S3_ACCESS_KEY
+          value: "xxxxx"
+        - name: GF_EXTERNAL_IMAGE_STORAGE_S3_SECRET_KEY
+          value: "xxxxx"
