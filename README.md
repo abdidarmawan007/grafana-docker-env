@@ -23,7 +23,7 @@
           value: /data/grafana
 ### domain
         - name: GF_SERVER_ROOT_URL
-          value: https://grafana-101.abdidarmawan.com
+          value: https://grafana-101.abdidarmawan.com          
 ### aws key and region
         - name: GF_AWS_default_ACCESS_KEY_ID
           value: "xxxxxxx"
@@ -42,3 +42,10 @@
           value: "xxxxx"
         - name: GF_EXTERNAL_IMAGE_STORAGE_S3_SECRET_KEY
           value: "xxxxx"
+### gcp storage store images alert
+        - name: GF_EXTERNAL_IMAGE_STORAGE_PROVIDER
+          value: "gcs"
+        - name: GF_EXTERNAL_IMAGE_STORAGE_GCS_KEY_FILE
+          value: "/var/lib/grafana/service_account.json"
+        - name: GF_EXTERNAL_IMAGE_STORAGE_GCS_BUCKET
+          value: "my-gcp-public-bucket"
