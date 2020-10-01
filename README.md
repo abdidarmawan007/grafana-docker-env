@@ -64,3 +64,4 @@
           value: "abdidarmawan.com"
         - name: GF_AUTH_GOOGLE_ALLOW_SIGN_UP
           value: "true"
+![alt text](https://i.imgur.com/VQzOWzb.png)        
