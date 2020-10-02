@@ -64,4 +64,10 @@
           value: "abdidarmawan.com"
         - name: GF_AUTH_GOOGLE_ALLOW_SIGN_UP
           value: "true"
-![alt text](https://i.imgur.com/VQzOWzb.png)        
+![alt text](https://i.imgur.com/VQzOWzb.png)
+
+##### create OAuth Client ID Google
+https://console.cloud.google.com/apis/credentials
+#### documentation google sso grafana
+https://grafana.com/docs/grafana/latest/auth/google/
+
